@@ -19,66 +19,76 @@
     <title>Wait this isn't Dota</title>
   </head>
   <body>
-    <header class="container-fluid p-0 sticky-top">
-      <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary opacity-75">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img
-                src="assets/img/b84045ae46354d4497b27e5e88639193 (1).png"
-                alt="Logo"
-                width="70"
-                height="70"
-                class="d-inline-block align-text-top"
-              />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Accueil</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Cours</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Forum</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link">Inscrit toi !</a>
-                </li>
-              </ul>
-            </div>
+    <header
+      class="p-0 sticky-top d-flex flex-column align-items-center"
+      style="background-color: #04042c"
+    >
+      <img
+        src="assets/img/b84045ae46354d4497b27e5e88639193 (1).png"
+        alt="Logo"
+        width="90"
+        height="90"
+        class="d-inline-block align-text-top"
+      />
+
+      <nav class="navbar navbar-expand-lg opacity-75">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-evenly"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white navbar-text"
+                  aria-current="page"
+                  href="#"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white navbar-text" href="#">Cours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white navbar-text" href="#">Forum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white navbar-text">Inscrit toi !</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-        <video id="background-video" autoplay loop muted>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="background-video">
+        <video autoplay loop muted playsinline class="d-flex video">
           <source
             src="assets/img/Paris Aftermovie - 2017 Summer EU LCS Finals-trimmed.mp4"
             type="video/mp4"
           />
         </video>
+        <div class="text-center overlay">
+          <h2 class="text-white p-5 main-text">
+            Ne reste pas sur la touche, éleve ton niveau de jeu et domine la
+            Faille de l'Invocateur grâce à
+            <strong>Wait this isn't Dota</strong>. Ensemble, conquérons le Nexus
+          </h2>
+        </div>
       </div>
-      <div class="text-center">
-        <h2 class="text-white mt-3 mb-3">
-          Ne reste pas sur la touche, éleve ton niveau de jeu et domine la
-          Faille de l'Invocateur grâce à <strong>Wait this isn't Dota</strong>.
-          Ensemble, conquérons le Nexus !
-        </h2>
-      </div>
-    </header>
-    <main>
+
       <div class="d-flex flex-column align-items-center gap-1 mt-3">
         <button
           type="button"
@@ -117,7 +127,7 @@
           >
         </div>
       </div>
-    </main>
+    </section>
 
     <footer>
       <div class="container">
@@ -144,15 +154,9 @@
             <li class="nav-item">
               <a href="#" class="nav-link text-body-secondary">Accueil</a>
             </li>
+
             <li class="nav-item">
-              <a href="#" class="nav-link text-body-secondary"
-                >Mentions légales</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-body-secondary"
-                >Conditions générales d'utilisation</a
-              >
+              <a href="#" class="nav-link text-body-secondary">C.G.U</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link text-body-secondary">FAQ</a>
